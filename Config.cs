@@ -13,6 +13,9 @@ namespace BetterChaosOnStart
         [Description("The percent chance that Chaos replaces Facility Guards when the round starts")]
         public byte CIOnStartChance { get; set; } = 15;
 
+        [Description("The class of Chaos who replace Facility Guards ")]
+        public RoleType CIOnStartRole { get; set; } = RoleType.ChaosConscript;
+
         [Description("Whether or not Chaos spawning in place of Facility Guards consumes respawn tickets")]
         public bool CIOnStartConsumeTickets { get; set; } = true;
 

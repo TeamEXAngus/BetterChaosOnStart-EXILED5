@@ -1,5 +1,4 @@
-﻿using Exiled.API.Features;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace BetterChaosOnStart.Handlers
 {

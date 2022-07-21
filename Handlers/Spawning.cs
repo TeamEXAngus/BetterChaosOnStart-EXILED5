@@ -13,7 +13,7 @@ namespace BetterChaosOnStart.Handlers
                 ev.RoleType == RoleType.FacilityGuard &&
                 BetterChaosOnStart.Instance.CIOnStart)
             {
-                ev.Player.SetRole(RoleType.ChaosConscript, lite: true);
+                ev.Player.SetRole(Configs.CIOnStartRole, lite: true);
 
                 if (Configs.CIOnStartConsumeTickets)
                     Respawn.ChaosTickets -= 1;
