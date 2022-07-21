@@ -5,10 +5,14 @@ better_chaos_on_start:
   
   # The percent chance that Chaos Insurgency will spawn instead of Facility Guards when the round starts
   c_i_on_start_chance: 100
+   
+  # The class of Chaos who replace Facility Guards
+  # ChaosConscript, ChaosRifleman, ChaosRepressor, ChaosMarauder
+  c_i_on_start_role: ChaosConscript
   
   # Whether or not Chaos that replace Facility Guards will use up Chaos spawn tickets
   c_i_on_start_consume_tickets: true
-  
+
   # The items given to Chaos Insurgents when they spawn at round start
   # A full list of items can be found on the EXILED Discord server
   c_i_on_start_items:
