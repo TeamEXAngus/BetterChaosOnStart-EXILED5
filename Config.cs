@@ -29,7 +29,7 @@ namespace BetterChaosOnStart
             ItemType.ArmorLight
         };
 
-        [Description("The ammo given to cuffed Chaos Insurgents when they spawn at round start")]
+        [Description("The ammo given to Chaos Insurgents when they spawn at round start")]
         public Dictionary<AmmoType, ushort> CIOnStartAmmmo { get; set; } = new()
         {
             { AmmoType.Ammo44Cal, 12 },
